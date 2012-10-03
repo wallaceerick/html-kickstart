@@ -1,0 +1,64 @@
+#menu {
+	width: 100%;
+}
+#menu ul {
+	z-index:100;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#menu ul li {
+	position: relative;
+	display: inline;
+	float: left;
+} 
+#menu ul li a {
+	display: block;
+	background: #414141; 
+	color: white;
+	padding: 8px 10px;
+	border-right: 1px solid #778;
+	color: #2d2b2b;
+	text-decoration: none;
+} 
+#menu ul li a:link, #menu ul li a:visited {
+	color: white;
+}
+#menu ul li a.selected {  
+	background: black;
+	color: white;
+}
+#menu ul li a:hover {
+	background: black;  
+	color: white;
+}
+#menu ul li ul {
+	position: absolute;
+	left: 0;
+	display: none; 
+	visibility: hidden;
+}
+#menu ul li ul li {
+	display: list-item;
+	float: none;
+}
+#menu ul li ul li ul {
+	top: 0;
+}
+#menu ul li ul li a { 
+	width: 160px; 
+	padding: 5px;
+	margin: 0;
+	border-top-width: 0;
+	border-bottom: 1px solid gray;
+}
+#menu .downarrowclass {
+	position: absolute;
+	top: 12px;
+	right: 7px;
+}
+#menu .rightarrowclass {
+	position: absolute;
+	top: 6px;
+	right: 5px;
+}

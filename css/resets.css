@@ -1,0 +1,64 @@
+/************************************************************************
+*   
+*   S T Y L E   C S S
+*   
+*   Author:   Wallace Erick
+*   Company:  Imaginera
+*   Date:     01 Ago 2010
+*   Email:    wallace.erick@imaginera.com.br
+*   Web:      http://www.wallaceerick.com.br/
+*
+*************************************************************************/
+
+/*-----------------------------------------------------------------------
+Resets
+------------------------------------------------------------------------*/
+
+* {
+	outline-color:invert;
+	outline-style:none;
+	outline-width:medium;
+	outline:none;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#888;
+	font-size: 12px; 
+}
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, header, hgroup, nav, footer, section, details, summary, aside, buttom {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline; 
+}
+header, hgroup, nav, footer, section, details, summary, aside {
+	 display:block;
+}
+body, input, select, textarea {
+	font-size: inherit;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: "";
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "" "";
+}
+:focus {
+	outline: 0;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+strong {
+	font-weight: bold;
+}
+.clear {
+	clear:both;
+}
