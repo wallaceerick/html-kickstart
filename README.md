@@ -1,4 +1,10 @@
 html-kickstart
 ==============
 
-HTML Kickstart
+#Features:
+- Dropdown
+- Slider
+- Tabs
+- Accordion
+- Lightbox
+- Tipsy
