@@ -1,25 +1,18 @@
 /************************************************************************
 *   
-*   S T Y L E   C S S
+*   R E S E T   C S S
 *   
 *   Author:   Wallace Erick
 *   Company:  Agência Caso
-*   Date:     10 Mai 2010
+*   Date:     01 Out 2012
 *   Email:    wallace_erick@hotmail.com
 *   Web:      http://www.wallaceerick.com.br/
 *
 *************************************************************************/
 
 /*-----------------------------------------------------------------------
-Estrutura
+Desnecessários
 ------------------------------------------------------------------------*/
-
-
-/*
-*******************************
-Apagar
-*******************************
-*/
 h3 {font-size:25px; font-weight:normal; display:block; margin:0 0 10px 0;}
 h3.com-margin {margin:0 0 10px 20px;}
 .tipsy-links {width:350px; margin:0 0 0 20px;}
@@ -27,11 +20,9 @@ h3.com-margin {margin:0 0 10px 20px;}
 .jquery-slider-wrapper { margin:0 0 0 20px;}
 .lightbox-links {margin:0 0 0 20px;}
 
-/*
-*******************************
+/*-----------------------------------------------------------------------
 Menu Dropdown
-*******************************
-*/
+------------------------------------------------------------------------*/
 nav#menu ul { 
 	position: relative;
 	z-index:999;
@@ -94,11 +85,9 @@ nav#menu ul ul ul {
 	left: 100%;
 	top: 0;
 }
-/*
-*******************************
+/*-----------------------------------------------------------------------
 Tabs
-*******************************
-*/
+------------------------------------------------------------------------*/
 section#tabs {
 	width: 420px;
 	display:block;
@@ -141,11 +130,9 @@ section#tabs #tabs-content div {
 section#tabs #tabs-content div.active {
 	display: block;
 }
-/*
-*******************************
+/*-----------------------------------------------------------------------
 Accordion
-*******************************
-*/
+------------------------------------------------------------------------*/
 section#accordion ul {
 	width:600px;
 	margin:0 0 0 20px;
@@ -166,7 +153,7 @@ section#accordion ul li a:hover {
 	background:#aaa;
 }
 section#accordion ul li a.active {
-	background:#888;
+	background:#888;	color: # 000000;
 }
 section#accordion ul li a span {
 	position:absolute;
@@ -177,23 +164,23 @@ section#accordion ul li a span {
 	background:url('http://cdn1.iconfinder.com/data/icons/silk2/control_play.png') 0 0 no-repeat;
 	-webkit-transition:all 0.5s ease;
 	-moz-transition:all 0.5s ease;
-	-o-transition:all 0.5s ease; 
+	-o-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	transition:all 0.5s ease; 
 }
 section#accordion ul li a.active span {
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
-	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	transform: rotate(90deg); 
 }
 section#accordion ul li .content {
 	background:#eee;
 }
-/*
-*******************************
-Transitions
-*******************************
-*/
+/*-----------------------------------------------------------------------
+CSS3 Transitions
+------------------------------------------------------------------------*/
 .transition,
 nav#menu ul li, nav#menu ul li:hover,
 section#tabs ul li a, section#tabs ul li a:hover, section#tabs ul li.active a,
@@ -202,11 +189,9 @@ section#accordion ul li a, section#accordion ul li a:hover  {
    -moz-transition: all 0.5s ease;
    -webkit-transition: all 0.5s ease;
 }
-/*
-*******************************
+/*-----------------------------------------------------------------------
 Slider
-*******************************
-*/
+------------------------------------------------------------------------*/
 .jquery-slider-wrapper{position:relative;clear:both;zoom:1;}
 .jquery-slider-slide{display:none;position:absolute;left:0;top:0;width:100%;}
 .jquery-slider-slide-current{display:block;z-index:2;}
@@ -225,11 +210,9 @@ Slider
 .jquery-slider-selector-current{background-position:-16px -70px}
 .jquery-slider-control-play{background-position:-144px 0;}
 .jquery-slider-control-pause{background-position:-96px 0;}
-/*
-*******************************
+/*-----------------------------------------------------------------------
 Tipsy
-*******************************
-*/
+------------------------------------------------------------------------*/
 .tipsy{padding:5px;font-size:10px;position:absolute;z-index:100000;}
 .tipsy-inner{padding:5px 8px 4px 8px;background-color:black;color:white;max-width:200px;text-align:center;}
 .tipsy-inner{border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
